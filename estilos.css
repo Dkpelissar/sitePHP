@@ -1,0 +1,150 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 60px;
+    /* bottom = footer height */
+	font-family: Tahoma, Arial, sans-serif;
+	background-color: #f5f5f5;
+	line-height: 1.5em;
+}
+
+header {
+    min-height: 55px;
+	background-color: #2D3F50;
+}
+
+header img{
+	height: 50px;
+}
+
+header ul{
+	list-style: none;
+	display: block;	
+}
+
+header ul li {
+	float: left;
+}
+header ul li a {
+	padding: 15px 30px;
+	line-height: 50px;
+	border-left: 1px solid #464A4E;
+	border-right: 1px solid #0E3457;
+	text-decoration: none;
+	color: #fff;
+}
+header ul li:first-child a {
+	border-left: 0;
+}
+header ul li:last-child a {
+	border-right: 0;
+}
+header ul li a:hover {
+	background-color: #4aa6e0;
+}
+
+article{
+	padding-bottom: 60px;
+	margin: 30px 25px;
+	font-size: 18px;
+	text-align: justify;
+	text-indent: 30px;
+	display: flex;
+	max-width: 900px;
+		
+}
+
+
+
+.conteudo{
+	position: absolute;
+	
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background: #2D3F50;
+	text-align: center;
+	color: white;
+}
+
+footer img{
+	width: 90px;
+	vertical-align:middle;
+}
+
+
+/* IMAGENS */
+
+.imagem-sobre{
+    width: 25%;
+	margin-left: 30%; 
+}
+
+#koala-index{
+	width: 30%;
+}
+
+#imagem-falecon{
+	width: 60%;
+}
+
+/*fim de edição imagens*/
+
+/*Formatação do H2 Sobre nós */
+
+.sobre-nos{
+	text-decoration: underline overline;
+	font-size: 22px;
+	color:#696969;
+	margin-left:35%; 
+}
+
+.sobre-nos:hover{
+	color: #4aa6e0;
+	
+}
+
+p{
+	font-size: 14px;
+	
+}
+
+/*FIM PAGINA SOBRE */
+
+.button{
+	background-color: #666;
+	padding: 5px 15px;
+	font-size: 16px;
+	color:#FFF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    color: black;	
+}
+
+.input-pesquisa{
+	margin-top: 15px;
+	margin-left: 05%;
+	margin-bottom:01%;
+	background-color: #FFF;
+	padding: 5px 0px;
+	font-size: 16px;
+	color: #808080;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+
